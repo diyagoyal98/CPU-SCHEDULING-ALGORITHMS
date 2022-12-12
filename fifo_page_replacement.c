@@ -68,7 +68,7 @@ int main()
             {
                 frames[current]=reference_string[i];
                 printFrameContent(frames,frame_no);
-                updatePageTable(pt,reference_string[i],current,i);
+                updatePageTable(pt,reference_string[i],current,1);
                 current++;
                 if(current == frame_no)
                 {
